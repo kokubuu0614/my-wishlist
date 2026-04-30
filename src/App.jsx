@@ -5,12 +5,13 @@ import { getFirestore, collection, doc, setDoc, deleteDoc, onSnapshot, writeBatc
 import { Plus, Trash2, ArrowUp, ArrowDown, ExternalLink, GripVertical, Pencil, Check, X, Loader2, Heart } from 'lucide-react';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBS-_cFuqmsuInKY7jN5adoCcP8nAIJq1w",
+  authDomain: "my-wishlist-5c751.firebaseapp.com",
+  projectId: "my-wishlist-5c751",
+  storageBucket: "my-wishlist-5c751.firebasestorage.app",
+  messagingSenderId: "680652173845",
+  appId: "1:680652173845:web:59fc58cf2418c0cef1941c",
+  measurementId: "G-5Q0LEW1D3M"
 };
 
 const app = initializeApp(firebaseConfig);
